@@ -8,7 +8,7 @@ body {
 /* Type */
 
 body, input, select, textarea {
-	color: #ccc;
+	color: #000;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 17pt;
 	font-weight: 300;
@@ -22,7 +22,7 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #ccc;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ strong, b {
   		display: -webkit-flex;
   		display: -ms-flex;
   		display: flex;
-  		background-color: #ccc;
+  		background-color: #;
   		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
   		cursor: default;
   		font-weight: 600;
@@ -148,7 +148,7 @@ strong, b {
     		-webkit-align-items: center;
     		-ms-align-items: center;
     		align-items: center;
-    		background-image: url("../img/hotorget.jpg");
+    		background-image: url("../img/cactus.jpg");
     		display: -moz-flex;
     		display: -webkit-flex;
     		display: -ms-flex;
@@ -198,10 +198,10 @@ strong, b {
     		}
 
     		#banner > .inner {
-    			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
-    			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
-    			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
-    			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
+    			-moz-transition: opacity 1s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
+    			-webkit-transition: opacity 1s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
+    			-ms-transition: opacity 1s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
+    			transition: opacity 1s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
     			padding: 0 !important;
     			position: relative;
     			z-index: 2;
@@ -248,7 +248,7 @@ strong, b {
     					font-size: 0.7em;
     					font-weight: 600;
     					letter-spacing: 0.25em;
-    					/* text-transform: uppercase; */
+    					text-transform: capitalize;
     				}
 
     		#banner.major {
@@ -262,27 +262,27 @@ strong, b {
     			}
 
     		#banner.style1:after {
-    			background-color: #242943;
+    			background-color: #7f1ae5;
     		}
 
     		#banner.style2:after {
-    			background-color: #242943;
+    			background-color: #7f1ae5;
     		}
 
     		#banner.style3:after {
-    			background-color: #242943
+    			background-color: #7f1ae5;
     		}
 
     		#banner.style4:after {
-    			background-color: #242943;
+    			background-color: #7f1ae5;
     		}
 
     		#banner.style5:after {
-    			background-color: #242943;
+    			background-color: #7f1ae5;
     		}
 
     		#banner.style6:after {
-    			background-color: #242943;
+    			background-color: #7f1ae5;
     		}
 
     		body.is-loading #banner:after {
@@ -304,7 +304,7 @@ strong, b {
     		@media screen and (max-width: 1280px) {
 
     			#banner {
-    				background-attachment: scroll;
+    				background-attachment: fixed;
     			}
 
     		}
@@ -439,7 +439,7 @@ strong, b {
         				display: block;
         				height: 100%;
         				left: 0;
-        				opacity: 0.15;
+        				opacity: 0;
         				position: absolute;
         				width: 100%;
         				z-index: 2;
@@ -453,12 +453,13 @@ strong, b {
         				left: 0;
         				position: absolute;
         				top: 0;
+								opacity: .5;
         				width: 100%;
         				z-index: 1;
         			}
 
         			.tiles article:hover:before {
-        				opacity: 0;
+        				opacity: .7;
         			}
 
         			/* .tiles article:hover:after {
@@ -488,27 +489,27 @@ strong, b {
         			}
 
         			.tiles article:nth-child(6n - 5):before {
-        				background-color: #242943;
+        				background-color: #7f1ae5;
         			}
 
         			.tiles article:nth-child(6n - 4):before {
-        				background-color: #242943;
+        				background-color: #7f1ae5;
         			}
 
         			.tiles article:nth-child(6n - 3):before {
-        				background-color: #242943;
+        				background-color: #7f1ae5;
         			}
 
         			.tiles article:nth-child(6n - 2):before {
-        				background-color: #242943;
+        				background-color: #7f1ae5;
         			}
 
         			.tiles article:nth-child(6n - 1):before {
-        				background-color: #242943;
+        				background-color: #7f1ae5;
         			}
 
         			.tiles article:nth-child(6n):before {
-        				background-color: #242943;
+        				background-color: #7f1ae5;
         			}
 
         		@media screen and (max-width: 1280px) {

@@ -2,7 +2,7 @@
 baseURL = "http://www.example.com"
 languageCode = "en-us"
 title = "Forty"
-theme = "forty"
+theme = "Forty"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -81,8 +81,8 @@ disqusShortname = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
+    title = ""
+    subtitle = ""
     buttonText = "Get Started"
 
 
@@ -106,7 +106,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Magna"
       subtitle = "Lorem Etiam Nullam"
-      image = "sivans-etiketter2.jpg"
+      image = ""
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
