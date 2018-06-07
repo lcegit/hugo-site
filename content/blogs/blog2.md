@@ -2,9 +2,9 @@
 title: "Magna"
 description: "Lorem Etiam Nullam"
 slug: "magna"
-image: pic09.jpg
+image: sivans-etiketter2.jpg
 keywords: ""
-categories: 
+categories:
     - ""
     - ""
 date: 2017-10-31T22:26:09-05:00
