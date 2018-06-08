@@ -26,8 +26,9 @@
                     <div class="contact-method">
                         <span class="icon alt fa-envelope"></span>
                         {{ range .Site.Params.Contact.email }}
-                        <h3>{{ .title }}</h3>
-                        <a href="mailto:{{ .email }}">{{ .email }}</a>
+                        <h3 style="color: #000">{{ .title }}</h3>
+                        <!-- <a href="mailto:{{ .email }}">{{ .email }}</a> -->
+                        <span>{{ .email }}</span>
                         {{ end }}
                     </div>
                 </section>
@@ -35,13 +36,13 @@
                     <div class="contact-method">
                         <span class="icon alt fa-phone"></span>
                         {{ range .Site.Params.Contact.phone }}
-                        <h3>{{ .title }}</h3>
+                        <h3 style="color: #000">{{ .title }}</h3>
                         <span>{{ .phone }}</span>
                         {{ end }}
                     </div>
                 </section>
                 <section>
-                    <div class="contact-method">
+                    <!-- <div class="contact-method">
                         <span class="icon alt fa-home"></span>
                         {{ range .Site.Params.Contact.address }}
                         <h3>{{ .title }}</h3>
@@ -49,7 +50,7 @@
                         {{ .city }}<br />
                         {{ .country }}</span>
                         {{ end }}
-                    </div>
+                    </div> -->
                 </section>
             </section>
         </div>
