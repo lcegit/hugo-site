@@ -22,6 +22,15 @@
                                 <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" /></span>
                             {{ end }}
                             {{ .Content }}
+                            {{ if .Params.image2 }}
+                                <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image2 }}" alt="" /></span>
+                            {{ end }}
+                            {{ if .Params.image3 }}
+                                <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image3 }}" alt="" /></span>
+                            {{ end }}
+                            {{ if .Params.image4 }}
+                                <span class="image main"><img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image4 }}" alt="" /></span>
+                            {{ end }}
                         </div>
                     </section>
             {{ "<!-- Disqus Inject -->" | safeHTML }}

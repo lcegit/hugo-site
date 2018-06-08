@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Forty</title>
+    <link>http://www.example.com/events/</link>
+    <description>Recent content in Events on Forty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jun 2016 19:20:04 -0700</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Event</title>
+      <link>http://www.example.com/events/my-first-event/</link>
+      <pubDate>Fri, 24 Jun 2016 19:20:04 -0700</pubDate>
+      
+      <guid>http://www.example.com/events/my-first-event/</guid>
+      <description>Today is my 36th birthday. How time flies.</description>
+    </item>
+    
+  </channel>
+</rss>

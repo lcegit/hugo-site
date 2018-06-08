@@ -37,8 +37,8 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "WYGGII"
-    subtitle = "WOO"
+    title = ""
+    subtitle = ""
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -85,7 +85,6 @@ disqusShortname = ""
     subtitle = ""
     buttonText = "Get Started"
 
-
   # Tiles Section
   [params.tiles]
     enable = true
@@ -126,6 +125,55 @@ disqusShortname = ""
       subtitle = "Feugiat"
       image = "no_glory.jpg"
       url = "blogs/test"
+
+    [[params.tiles.showcase]]
+      title = ""
+      subtitle = ""
+      image = "1_animated_symbol_morphshapes.gif"
+      url = "blogs/test"
+
+    [[params.tiles.showcase]]
+      title = ""
+      subtitle = ""
+      image = "2_theme_chain_reaction.gif"
+      url = "blogs/test"
+
+    [[params.tiles.showcase]]
+      title = ""
+      subtitle = ""
+      image = "2_theme_circles.gif"
+      url = "blogs/test"
+
+    [[params.tiles.showcase]]
+      title = ""
+      subtitle = ""
+      image = "2_theme_dots_in_space_zoomin.gif"
+      url = "blogs/test"
+
+      [[params.tiles.showcase]]
+        title = ""
+        subtitle = ""
+        image = "2_theme_dots_pattern_v2.gif"
+        url = "blogs/test"
+
+      [[params.tiles.showcase]]
+        title = ""
+        subtitle = ""
+        image = "32-cube.gif"
+        url = "blogs/test"
+
+      [[params.tiles.showcase]]
+        title = ""
+        subtitle = ""
+        image = "14-grid-with-dots.gif"
+        url = "blogs/test"
+
+      [[params.tiles.showcase]]
+        title = ""
+        subtitle = ""
+        image = "40-transition_circle.gif"
+        url = "blogs/illustration"
+
 
   [params.blog]
     # All blogs defined in their own files. You can find example blogs
@@ -214,7 +262,7 @@ disqusShortname = ""
       url= "https://www.linkedin.com"
       label = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Design: "
-      url= "https://www.html5up.net"
-      alt = "HTML5 UP"
+    # [[params.footer.quicklinks]]
+    #   text = "Design: "
+    #   url= "https://www.html5up.net"
+    #   alt = "HTML5 UP"

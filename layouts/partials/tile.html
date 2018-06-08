@@ -5,10 +5,13 @@
             <span class="image">
                 <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" />
             </span>
-            <header class="major">
-                <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
-                <p>{{ .subtitle }}</p>
-            </header>
+            <!-- <header class="major"> -->
+              <span class="text-content"><span>
+                  <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
+                  <p>{{ .subtitle }}</p>
+              </span>
+
+            <!-- </header> -->
         </article>
         {{ end }}
     </section>
