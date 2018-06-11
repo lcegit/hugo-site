@@ -1,11 +1,7 @@
-# [submodule "themes/ananke"]
-# 	path = /themes/ananke
-# 	url = https://github.com/budparr/gohugo-theme-ananke.git/
-#
-# [submodule "themes/forty"]
-# 	path = /themes/forty
-# 	url = https://github.com/MarcusVirg/forty.git/
-# 
+[submodule "themes/forty"]
+	path = themes/forty
+	url = https://github.com/MarcusVirg/forty.git
+
 [submodule "forty"]
 	path = forty
 	url = https://github.com/MarcusVirg/forty.git
