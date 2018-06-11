@@ -69,6 +69,10 @@ strong, b {
 span.text-content {
 	color: white;
 	cursor: pointer;
+	padding-top: .5em;
+	text-shadow: 2px 3px hsla(0, 0%, 0%, 0.2);
+	/* background-color: hsla(0, 0%, 0%, 0.34); */
+	/* padding: 1em; */
 	/* display: table; */
 	/* height: 100%; */
 	/* width: auto; */

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Illustration</title>
+      <link>http://www.example.com/blogs/illustration/</link>
+      <pubDate>Thu, 07 Jun 2018 14:19:28 +0200</pubDate>
+      
+      <guid>http://www.example.com/blogs/illustration/</guid>
+      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
+    </item>
+    
+    <item>
       <title>Test</title>
       <link>http://www.example.com/blogs/test/</link>
       <pubDate>Thu, 07 Jun 2018 14:19:28 +0200</pubDate>
